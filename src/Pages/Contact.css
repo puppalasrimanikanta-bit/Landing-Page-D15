@@ -1,0 +1,98 @@
+.contact {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slider 12s infinite;
+}
+
+.overlay {
+    min-height: 100vh;
+    background: rgba(0,0,0,0.45);
+    padding: 50px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 350px;
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.contact-info h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.contact-form {
+    width: 450px;
+    background: rgba(255,255,255,0.9);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #0d6efd;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #084298;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url("../assets/banner1.jpg");
+    }
+
+    33% {
+        background-image: url("../assets/banner2.webp");
+    }
+
+    66% {
+        background-image: url("../assets/banner3.webp");
+    }
+
+    100% {
+        background-image: url("../assets/banner1.jpg");
+    }
+}

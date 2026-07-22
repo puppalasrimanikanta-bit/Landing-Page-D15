@@ -1,0 +1,1 @@
+.footer { position: sticky; bottom: 0; z-index: 10; display: flex; justify-content: space-between; gap: 20px; padding: 12px clamp(24px,5vw,86px); background: #123c46; color: #dbe9e6; font-size: 12px; }.footer p { margin:0; }.footer a { color:#fff; font-weight:700; text-decoration: none; } @media(max-width:600px){.footer{font-size:10px;padding:10px 18px;}}
